@@ -10,51 +10,40 @@ import Link from 'next/link';
 
 export default function CTA() {
   return (
-    <div className="bg-[#040E17] mx-auto py-8">
+    <div className="bg-[#4a8da7] mx-auto py-8">
       <div className="relative xl:px-20 lg:px-20 md:px-12 pt-10 flex flex-col justify-center items-center">
         <h1 className="text-center xl:text-4xl text-3xl xl:w-4/6 w-5/6 mx-auto font-extrabold text-gray-200">
-          Join US
+          Discussions
         </h1>
         <p className="text-xl text-center text-gray-400 xl:w-4/6 w-5/6 mx-auto pt-5 pb-8 font-normal">
-          "If you want to lift yourself up, lift up someone else." – Booker T.
-          Washington
+          Join us using any of these links.
         </p>
         <div>
-          <Link href="https://kutt.it/techhub-invite">
+          <Link href="https://discord.com/invite/gFAx3PEq7N">
             <a>
               <img
                 alt="Discord"
                 className="h-8 zoom"
-                src="https://img.shields.io/discord/814219041614594078?color=%23c31265&label=Discord&style=for-the-badge"
+                src="https://img.shields.io/discord/876380567183167538?color=%23c31265&label=Discord&style=for-the-badge"
               />
             </a>
           </Link>
         </div>
         <div className="flex justify-center items-center py-6">
           <div className="flex flex-row gap-6 place-items-center mr-4">
-            <Link href="https://www.facebook.com/official.techhub.community">
+            <Link href="https://twitter.com/SocialWellNet/">
               <a>
-                <IoLogoFacebook className="text-2xl text-gray-200 hover:text-brand-500" />
+                <IoLogoTwitter className="text-2xl text-gray-200 hover:text-brand-800" />
               </a>
             </Link>
-            <Link href="https://www.instagram.com/techhub_community/">
+            <Link href="https://www.linkedin.com/company/socialwell/">
               <a>
-                <IoLogoInstagram className="text-2xl text-gray-200 hover:text-brand-500" />
+                <IoLogoLinkedin className="text-2xl text-gray-200 hover:text-brand-800" />
               </a>
             </Link>
-            <Link href="https://www.twitter.com/_techhub">
+            <Link href="https://github.com/orgs/socialwell/">
               <a>
-                <IoLogoTwitter className="text-2xl text-gray-200 hover:text-brand-500" />
-              </a>
-            </Link>
-            <Link href="https://www.linkedin.com/company/techhub-community">
-              <a>
-                <IoLogoLinkedin className="text-2xl text-gray-200 hover:text-brand-500" />
-              </a>
-            </Link>
-            <Link href="https://github.com/techhub-community/">
-              <a>
-                <IoLogoGithub className="text-2xl text-gray-200 hover:text-brand-500" />
+                <IoLogoGithub className="text-2xl text-gray-200 hover:text-brand-800" />
               </a>
             </Link>
           </div>

@@ -87,15 +87,15 @@ export default class Home extends React.Component<{}, HomeState> {
         {!this.state.loading ? (
           <div>
             <Head>
-              <title>Home - TechHub :: Community</title>
+              <title>SocialWell</title>
             </Head>
             <Navbar />
             <Hero />
-            <QOD
+            {/* <QOD
               alpha={this.state.alpha}
               beta={this.state.beta}
               basics={this.state.basics}
-            />
+            /> */}
             <Stats githubStats={this.state.githubStats} />
             <LLT />
             <CTA />
@@ -103,11 +103,9 @@ export default class Home extends React.Component<{}, HomeState> {
             <Footer />
           </div>
         ) : (
-          <CustomLoader/>
+          <CustomLoader />
         )}
       </>
     );
-
   }
 }
-

@@ -15,9 +15,7 @@ export default function Footer() {
         <img loading="lazy" src="/assets/logo/logo-full-transparent.png" />
       </div>
       <div className="py-3 flex lg:items-start items-center">
-        <p className="lg:text-base text-xs leading-5">
-          2021 TechHub, All rights reserved
-        </p>
+        <p className="lg:text-base text-xs leading-5">2021 SocialWell</p>
       </div>
       <div className="my-4">
         <ul className="flex uppercase tracking-widest">
@@ -28,28 +26,28 @@ export default function Footer() {
               </li>
             </a>
           </Link>
-          <Link href="/blogs">
+          {/* <Link href="/blogs">
             <a>
               <li className="lg:text-lg text-sm leading-5 lg:mr-10 mr-2 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-brand-600">
                 Blogs
               </li>
             </a>
-          </Link>
-          <Link href="/contributors">
+          </Link> */}
+          {/* <Link href="/contributors">
             <a>
               <li className="lg:text-lg text-sm leading-5 lg:mr-10 mr-2 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-brand-600">
                 Contributors
               </li>
             </a>
-          </Link>
-          <Link href="https://kutt.it/techhub-invite">
+          </Link> */}
+          {/* <Link href="https://kutt.it/techhub-invite">
             <a>
               {' '}
               <li className="lg:text-lg text-sm leading-5 lg:mr-10 mr-2 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-brand-600">
                 Discord
               </li>
             </a>
-          </Link>
+          </Link> */}
         </ul>
       </div>
 
