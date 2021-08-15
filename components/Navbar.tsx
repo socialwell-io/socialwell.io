@@ -28,7 +28,7 @@ const Navbar = () => {
         </Link>
         <div className="hidden ml-[10%] md:flex uppercase tracking-widest gap-7 justify-between cursor-pointer">
           <Link href="/">
-            <a className="text-black-600 hover:text-brand-700 hover:text-bold">
+            <a className="text-black-600 hover:text-brand-800 hover:text-bold">
               Home
             </a>
           </Link>
@@ -49,17 +49,17 @@ const Navbar = () => {
             <div className="flex flex-row gap-3 place-items-center mr-4">
               <Link href="https://twitter.com/SocialWellNet/">
                 <a>
-                  <IoLogoTwitter className="text-xl hover:text-brand-500" />
+                  <IoLogoTwitter className="text-xl hover:text-brand-300" />
                 </a>
               </Link>
               <Link href="https://www.linkedin.com/company/socialwell/">
                 <a>
-                  <IoLogoLinkedin className="text-xl hover:text-brand-500" />
+                  <IoLogoLinkedin className="text-xl hover:text-brand-300" />
                 </a>
               </Link>
               <Link href="https://github.com/orgs/socialwell/">
                 <a>
-                  <IoLogoGithub className="text-xl hover:text-brand-500" />
+                  <IoLogoGithub className="text-xl hover:text-brand-300" />
                 </a>
               </Link>
             </div>
