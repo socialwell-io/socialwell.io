@@ -4,13 +4,13 @@ import React from 'react';
 export default function Footer() {
   return (
     <div className="border-t-2 border-gray-50 text-black-700 pt-8 pb-4 flex flex-col md:flex-row items-center justify-around">
-      <div className="hidden md:block w-36">
+      {/* <div className="hidden md:block w-36">
         <Link href="https://vercel.com?utm_source=techhub-community&utm_campaign=oss">
           <a target="_blank" rel="noopener noreferrer">
             <img loading="lazy" src="/assets/svg/vercel-logo.svg" />
           </a>
         </Link>
-      </div>
+      </div> */}
       <div className="block md:hidden w-24">
         <img loading="lazy" src="/assets/logo/logo-full-transparent.png" />
       </div>
