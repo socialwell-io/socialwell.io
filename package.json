@@ -1,7 +1,7 @@
 {
-  "name": "socialwell-web",
+  "name": "socialwell-io",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -32,20 +32,20 @@
     "tailwindcss": "^2.1.1",
     "typescript": "^4.2.4"
   },
-  "description": "SocialWell website",
+  "description": "SocialWell.io - Open source in action",
   "main": "postcss.config.js",
   "directories": {
     "lib": "lib"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:socialwell/socialwell-web.git"
+    "url": "https://github.com/socialwell-io/socialwell.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/socialwell/socialwell-web/issues"
+    "url": "https://github.com/socialwell-io/socialwell.io.git/issues"
   },
-  "homepage": "https://github.com/socialwell/socialwell-web"
+  "homepage": "https://github.com/socialwell-io/socialwell.io.git"
 }

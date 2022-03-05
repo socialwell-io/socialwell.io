@@ -15,7 +15,7 @@ export default function Footer() {
         <img loading="lazy" src="/assets/logo/logo-full-transparent.png" />
       </div>
       <div className="py-3 flex lg:items-start items-center">
-        <p className="lg:text-base text-xs leading-5">2021 SocialWell</p>
+        <p className="lg:text-base text-xs leading-5">2022 SocialWell.io</p>
       </div>
       <div className="my-4">
         <ul className="flex uppercase tracking-widest">
