@@ -23,7 +23,7 @@ const Navbar = () => {
               alt="SocialWell Logo"
               className="h-12"
             />
-            <span className="sr-only">TechHub</span>
+            <span className="sr-only">SocialWell.io</span>
           </span>
         </Link>
         <div className="hidden ml-[10%] md:flex uppercase tracking-widest gap-7 justify-between cursor-pointer">
@@ -57,7 +57,7 @@ const Navbar = () => {
                   <IoLogoLinkedin className="text-xl hover:text-brand-300" />
                 </a>
               </Link>
-              <Link href="https://github.com/orgs/socialwell/">
+              <Link href="https://github.com/socialwell-io/">
                 <a>
                   <IoLogoGithub className="text-xl hover:text-brand-300" />
                 </a>

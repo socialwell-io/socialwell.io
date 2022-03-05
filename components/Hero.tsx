@@ -8,11 +8,11 @@ export default function Hero() {
         <h1 className="mb-6  lg:text-5xl text-5xl font-extrabold leading-1 tracking-normal text-black-900 md:text-6xl md:tracking-tight">
           Open Source in Action <br />
           <span className="block w-full text-transparent bg-clip-text bg-gradient-to-r from-green-900  to-[#4a8da7] lg:inline">
-            Design. Build. Grow.
+            Design, Data, Dev.
           </span>{' '}
         </h1>
         <p className="px-0 mb-6 text-lg text-black-500 md:text-xl lg:px-24 ">
-          Design, data, and devs. Open source.
+          Building something exciting.
         </p>
       </div>
       <div className="flex justify-center w-full mx-auto text-center md:w-10/12">

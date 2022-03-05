@@ -87,7 +87,7 @@ export default class Home extends React.Component<{}, HomeState> {
         {!this.state.loading ? (
           <div>
             <Head>
-              <title>SocialWell</title>
+              <title>SocialWell.io</title>
             </Head>
             <Navbar />
             <Hero />
@@ -96,10 +96,10 @@ export default class Home extends React.Component<{}, HomeState> {
               beta={this.state.beta}
               basics={this.state.basics}
             /> */}
-            <Stats githubStats={this.state.githubStats} />
+            
             <LLT />
-            <CTA />
-            <Team />
+            
+            
             <Footer />
           </div>
         ) : (

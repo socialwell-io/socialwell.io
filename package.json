@@ -37,13 +37,10 @@
   "directories": {
     "lib": "lib"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/socialwell-io/socialwell.io.git"
-  },
+  "repository": "https://github.com/socialwell-io/socialwell.io.git",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "socialwell.io",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/socialwell-io/socialwell.io.git/issues"
   },
