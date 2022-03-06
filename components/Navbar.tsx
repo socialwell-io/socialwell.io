@@ -19,11 +19,11 @@ const Navbar = () => {
         <Link href="/">
           <span className="flex items-center">
             <img
-              src="/assets/logo/socialwell-logo.png"
+              src="/assets/logo/socialwell_logo_linkedin.png"
               alt="SocialWell Logo"
               className="h-12"
             />
-            <span className="sr-only">SocialWell.io</span>
+            <span className="lg:text-4xl text-5xl flex items-center justify-between px-4">Open Source</span>
           </span>
         </Link>
         <div className="hidden ml-[10%] md:flex uppercase tracking-widest gap-7 justify-between cursor-pointer">
